@@ -1,0 +1,11 @@
+.main {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+}
+.main  :hover {
+	transform: perspective(800px) rotateY(0deg);
+	opacity: 1;
+}
